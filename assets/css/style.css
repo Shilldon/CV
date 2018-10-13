@@ -284,7 +284,7 @@ footer .cv-pdf i:hover {
 /*-------------------------------------------Work History*/
 
 .timeline-item {
-    padding: 4em 2em 0em 2em;
+    padding: 3.75em 2em 0em 2em;
     position: relative;
     color: #fafafa;
     border-left: 1px solid;
@@ -295,6 +295,8 @@ footer .cv-pdf i:hover {
     margin: 0;
     
 }
+
+
 
 .timeline-item::before { /*before is a pseudo element */
     content: attr(dates); /*search for attribute called dates and display value assocaited with that dates key */
@@ -322,6 +324,7 @@ footer .cv-pdf i:hover {
     content: '';
     background: #fafafa;
 }
+
 
 .history-heading {
     color: #fafafa;
